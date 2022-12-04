@@ -329,6 +329,8 @@ nav ul a span {
   font-weight: normal;
   border: none;
   border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
   width: 304px;
   padding: 12px 16px;
   margin: 4px 0;
@@ -437,7 +439,6 @@ nav ul a span {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    margin: 48px auto 0 auto;
     padding: 48px 31px;
   }
 }
