@@ -196,6 +196,7 @@ img {
 }
 .side {
   width: 386px;
+  text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -310,10 +311,6 @@ nav ul a span {
   outline: 3px solid #fff;
 }
 
-.formControls .formControls_input:-ms-input-placeholder {
-  color: #9f9a91;
-}
-
 .formControls .formControls_input::-moz-placeholder {
   color: #9f9a91;
 }
@@ -329,7 +326,6 @@ nav ul a span {
   border-radius: 10px;
   background: #333333;
   color: #fff;
-  -ms-grid-row-align: center;
   align-self: center;
   margin: 24px 0;
   font-weight: bold;
@@ -539,4 +535,4 @@ nav ul a span {
   text-decoration: none;
 }
 
-/*# sourceMappingURL=all.css.map *//*# sourceMappingURL=all.css.map */
+/*# sourceMappingURL=all.css.map */
